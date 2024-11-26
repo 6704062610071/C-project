@@ -1,10 +1,13 @@
 #include <stdio.h>
 
-int main() // ข้อที่ 2
+int main() // ข้อที่ 3
 {
     int a;
     int b;
-    scanf("%d%d", &a, &b);
+    printf("n1: ");
+    scanf("%d", &b);
+    printf("n2: ");
+    scanf("%d", &a);
 
     if (b > a)
     {
