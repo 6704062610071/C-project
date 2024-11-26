@@ -1,16 +1,20 @@
 #include <stdio.h>
 
-int main() // ข้อที่ 1
+int main() // ข้อที่ 2
 {
-    int a=10;
-    int b=15;
-    if (b>a)
+    int a;
+    int b;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    if (b > a)
     {
-        printf("%d greater than %d",b,a);
+        printf("%d greater than %d\n", b, a);
+        printf("greater than %d",(b-a));
     }
     else
     {
-        printf("%d greater than %d",a,b);
+        printf("%d greater than %d\n", a, b);
+        printf("greater than %d",(a-b));
     }
     return 0;
 }
